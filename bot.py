@@ -1,5 +1,6 @@
 import os
 import logging
+import telegram
 from telegram import Update
 from telegram.ext import (
     Application,
@@ -17,6 +18,9 @@ logging.basicConfig(
     level=logging.INFO
 )
 logger = logging.getLogger(__name__)
+
+# Log library version for debugging
+logger.info(f"python-telegram-bot version: {telegram.__version__}")
 
 # Define states for the conversation
 WELCOME, AWAITING_TX_URL, AWAITING_IMAGE = range(3)
