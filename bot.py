@@ -28,8 +28,8 @@ WELCOME, AWAITING_TX_URL, AWAITING_IMAGE = range(3)
 # Bot token from environment variable
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
-# Telegram ID or username to send the data to
-RECIPIENT_USERNAME = "@Kerverossui"  # Replace with chat ID if needed
+# Telegram chat ID to send the data to
+RECIPIENT_USERNAME = "6365293683"  # Chat ID for @Kerverossui
 
 # Wallet addresses
 TON_ADDRESS = "UQBW2B1gjQBydPp2qMphelacZMQ26kna4W0p0NuzDYSuJlyP"
