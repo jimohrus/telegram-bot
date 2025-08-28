@@ -11,7 +11,7 @@ from telegram.ext import (
 )
 import re
 
-# Set up logging
+# Set up logging for Render
 logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO
